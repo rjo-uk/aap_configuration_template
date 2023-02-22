@@ -1,3 +1,14 @@
 ---
-controller_settings_dev: []
+controller_settings_dev:
+  - settings:
+      CUSTOM_LOGIN_INFO: |
+        WARNING
+
+        Only users authorised by MyCorp and issued with MyCorp log in credentials may use
+        corporate devices and this computer network. You must comply with the proper
+        use of MyCorp's computing systems in accordance with the company's policies
+        available on the MyCorp intranet site, including but not limited to, the
+        Acceptable Use Policy. Please view MyCorp's Employee Privacy Notice for more
+        information on how your data may be processed. If you are not an authorised
+        user please disconnect now.
 ...
