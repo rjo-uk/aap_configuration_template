@@ -1,3 +1,11 @@
 ---
-controller_organizations_dev: []
+controller_organizations_dev:
+- name: Automation Group
+  description: This is the Automation Group
+  custom_virtualenv: "/opt/cust/environment/"
+  max_hosts: 10
+- name: Operations Group
+  description: The Operations Group
+- name: Windows Administrators Group
+  description: The Windows Administrators Group
 ...
