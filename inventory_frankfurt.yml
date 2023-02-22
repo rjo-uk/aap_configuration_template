@@ -1,0 +1,24 @@
+---
+all:
+  children:
+    dev:
+      hosts:
+        127.0.0.1:
+      vars:
+        connection: local
+    automationcontroller:
+      hosts:
+        controller1.frankfurt.example.com:
+
+    automationhub:
+      hosts:
+        hub1.frankfurt.example.com:
+
+    # can be automationhub if you do not have a specific server for this
+    builder:
+      hosts:
+        hub1.frankfurt.example.com:
+
+  vars:
+    env: dev
+...
